@@ -4,13 +4,16 @@ spring:
       on-profile: prod
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     show-sql: false
   sql:
     init:
-      mode: always
+      mode: never
   flyway:
     clean-disabled: true
 logging:
   level:
     root: WARN
+app:
+  cors:
+    allowed-origin: ${FRONTEND_ORIGIN:https://adam-elzahiri.github.io}
