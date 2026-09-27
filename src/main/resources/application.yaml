@@ -18,5 +18,3 @@ spring:
       maximum-pool-size: 5
       minimum-idle: 2
       idle-timeout: 30000
-  jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect

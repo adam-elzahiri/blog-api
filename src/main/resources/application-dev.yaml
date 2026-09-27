@@ -3,7 +3,6 @@ spring:
     activate:
       on-profile: dev
   jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: create
     show-sql: true
