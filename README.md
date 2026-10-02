@@ -5,7 +5,7 @@ BlogAPI is my first personal project: a REST API for a blogging platform, built 
 ## Project links
 
 - **[Live frontend demo](https://blogapi-demo-frontend.onrender.com)** — an AI-generated demo client for exploring the API. The backend is my work; the frontend is included to demonstrate how a client can use it.
-- **[Interactive API documentation](https://adam-elzahiri.github.io/BlogAPI/)** — browse endpoints, parameters, and request bodies in Swagger UI.
+- **[Swagger API documentation](https://adam-elzahiri.github.io/blog-api/)** — browse endpoints, parameters, and request bodies in Swagger UI.
 - **[OpenAPI specification](docs/api-docs.json)** — import the API contract into tools such as Postman or Insomnia.
 
 ## What the API does
